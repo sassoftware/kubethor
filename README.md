@@ -104,6 +104,9 @@ kubethor/
 - [Docker](https://www.docker.com/get-started) (optional, for containerized deployment)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) (for interacting with Kubernetes clusters)
 
+Video: [![YouTube](http://i.ytimg.com/vi/Lt12M7kNoPE/hqdefault.jpg)](https://www.youtube.com/watch?v=Lt12M7kNoPE)
+
+
 ### Installation
 
 1. **Clone the repository:**
