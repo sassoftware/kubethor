@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebSocket Example</title>
+</head>
+
+<body>
+    <h1>WebSocket Example</h1>
+    <div id="message-container"></div>
+
+    <script>
+        const messageContainer = document.getElementById('message-container');
+
+        // Replace 'ws://your-websocket-server-url' with your WebSocket server URL
+        const socket = new WebSocket('ws://localhost:8080/pod-list');
+
+        socket.onopen = () => {
+            console.log('WebSocket connection opened.');
+        };
+
+        socket.onmessage = (event) => {
+            const message = JSON.parse(event.data);
+
+            // Display the incoming message in the message container
+            messageContainer.innerHTML += `<p>Pod Name: ${message.name}, Status: ${message.status}, Event Type: ${message.eventType}</p>`;
+        };
+
+        socket.onclose = () => {
+            console.log('WebSocket connection closed.');
+        };
+
+        socket.onerror = (error) => {
+            console.error('WebSocket error:', error);
+        };
+    </script>
+</body>
+
+</html>
