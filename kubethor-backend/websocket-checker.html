@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>WebSocket Example</title>
+</head>
+
+<body>
+    <h1>WebSocket Example</h1>
+    <div id="output"></div>
+
+    <script>
+        const output = document.getElementById('output');
+        const socket = new WebSocket("ws://localhost:8080/api/k8s/ws/resource-watcher/list/Deployment/d77593?sessionId=s6wg9mpe4lcb14iotcq03");
+
+        socket.onopen = (event) => {
+            output.innerHTML += 'WebSocket connection opened<br>';
+        };
+
+        socket.onmessage = (event) => {
+            const data = event.data;
+            output.innerHTML += 'Received data from WebSocket: ' + data + '<br>';
+
+            // You can process the received data here
+
+            // If you want to manually close the WebSocket from JavaScript, you can call socket.close()
+        };
+
+        socket.onclose = (event) => {
+            output.innerHTML += 'WebSocket connection closed: ' + event.reason + '<br>';
+
+            // You can perform cleanup or handle the closure event here
+        };
+
+        socket.onerror = (event) => {
+            output.innerHTML += 'WebSocket error: ' + event.message + '<br>';
+
+            // Handle WebSocket errors here
+        };
+    </script>
+</body>
+
+</html>
