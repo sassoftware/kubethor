@@ -1,6 +1,8 @@
 # Kubethor
 
-Kubethor is a Kubernetes management web application built using Go and React. It provides a user-friendly interface to manage and monitor Kubernetes clusters efficiently.
+Kubethor is a Kubernetes management web application built using Go and React. It provides a user-friendly interface to manage and monitor Kubernetes clusters efficiently. 
+
+Here is our Wiki Page: https://github.com/sassoftware/kubethor/wiki/Kubethor-Documentation-Hub
 
 ## Table of Contents
 
@@ -98,7 +100,7 @@ kubethor/
 ### Prerequisites
 
 - [Go](https://golang.org/doc/install) (version 1.16 or higher)
-- [Node.js](https://nodejs.org/) (version 14.x or higher)
+- [Node.js](https://nodejs.org/) (version 18.x or higher)
 - [Docker](https://www.docker.com/get-started) (optional, for containerized deployment)
 - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) (for interacting with Kubernetes clusters)
 
@@ -107,7 +109,7 @@ kubethor/
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/yourusername/kubethor.git
+   git clone git@github.com:sassoftware/kubethor.git
    cd kubethor
    ```
 
