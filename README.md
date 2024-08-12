@@ -4,10 +4,13 @@ Kubethor is a Kubernetes management web application built using Go and React. It
 
 Here is our Wiki Page: https://github.com/sassoftware/kubethor/wiki/Kubethor-Documentation-Hub
 
+Docker Hub: https://hub.docker.com/r/kubethor/kubethor
+
 ## Table of Contents
 
 - [Features](#features)
 - [Built With](#built-with)
+- [Docker Image](#docker-image)
 - [Folder Structure](#folder-structure)
 - [Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
@@ -40,6 +43,14 @@ Here is our Wiki Page: https://github.com/sassoftware/kubethor/wiki/Kubethor-Doc
 - Backend
   - [Go (Golang)](https://go.dev/): The programming language used for the backend.
   - [Kubernetes Client](https://pkg.go.dev/k8s.io/client-go/kubernetes): Client library for interacting with Kubernetes clusters.
+ 
+## Docker Image
+
+1. Pull the Docker Image: `docker pull kubethor/kubethor`
+2. Run the Docker Container: `docker run -p 8080:8080 kubethor/kubethor`
+3. Access the application via http://localhost:8080 on your browser.
+
+For more details about the Docker image, visit the [Kubethor Docker Hub page](https://hub.docker.com/r/kubethor/kubethor).
 
 ## Folder Structure
 
@@ -128,6 +139,12 @@ Video: [![YouTube](http://i.ytimg.com/vi/Lt12M7kNoPE/hqdefault.jpg)](https://www
 
      ```sh
      npm install
+     ```
+     If any error use: 
+
+     ```sh
+     npm config set registry https://registry.npmjs.org/
+     npm install --verbose
      ```
 
    - Build the React app:
