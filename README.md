@@ -2,7 +2,7 @@
 
 Kubethor is a Kubernetes management web application built using Go and React. It provides a user-friendly interface to manage and monitor Kubernetes clusters efficiently. 
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)]([https://opensource.org/licenses/Apache-2.0](https://github.com/sassoftware/kubethor/blob/main/LICENSE))
 [![Dockerhub](https://img.shields.io/badge/dockerhub-images-important.svg?logo=Docker)](https://hub.docker.com/r/kubethor/kubethor)
 [![Static Badge](https://img.shields.io/badge/youtube-channel?logo=youtube&label=Tutorial&color=%23FF0000)](https://www.youtube.com/watch?v=Lt12M7kNoPE)
 [![Static Badge](https://img.shields.io/badge/wiki-pedia?logo=wikipedia&label=Documentation)](https://github.com/sassoftware/kubethor/wiki/Kubethor-Documentation-Hub)
