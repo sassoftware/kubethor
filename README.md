@@ -6,6 +6,7 @@ Kubethor is a Kubernetes management web application built using Go and React. It
 [![Dockerhub](https://img.shields.io/badge/dockerhub-images-important.svg?logo=Docker)](https://hub.docker.com/r/kubethor/kubethor)
 [![Static Badge](https://img.shields.io/badge/youtube-channel?logo=youtube&label=Tutorial&color=%23FF0000)](https://www.youtube.com/watch?v=Lt12M7kNoPE)
 [![Static Badge](https://img.shields.io/badge/wiki-pedia?logo=wikipedia&label=Documentation)](https://github.com/sassoftware/kubethor/wiki/Kubethor-Documentation-Hub)
+[![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/sassoftware/kubethor)
 
 ## Table of Contents
 
