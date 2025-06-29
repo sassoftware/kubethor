@@ -338,3 +338,7 @@ For any inquiries or support, please reach out to:
 
 - [Huzaib Sayyed](mailto:huzaib.sayyed@gmail.com)
 - [Vishal Kulkarni](mailto:vishalkulkarniind@gmail.com)
+
+## Testing Information
+
+This project is tested with BrowserStack.
